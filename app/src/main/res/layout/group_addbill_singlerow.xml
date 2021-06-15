@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/groupsinglerow"
+    android:background="#ddccaa">
+
+    <TextView
+        android:id="@+id/membersname"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="3"
+
+        android:paddingLeft="5dp"
+        android:text="GName"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:gravity="center"
+        android:hint="Rs"
+        android:layout_height="50dp"
+        android:id="@+id/memberpaid"/>
+    <EditText
+        android:layout_width="0dp"
+        android:inputType="number"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:hint="Rs"
+        android:layout_height="50dp"
+        android:id="@+id/memberexpense"/>
+
+</LinearLayout>

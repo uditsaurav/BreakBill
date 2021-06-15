@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".addAbill"
+    android:background="@color/colorPrimary">
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ADD DESCRIPTION"/>
+    <EditText
+        android:id="@+id/total_bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TOTAL BILL"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/youpaid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="YOU PAID"/>
+        <EditText
+            android:id="@+id/hepaid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hepaid"
+            />
+        <EditText
+            android:id="@+id/youconsumed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="YOu consumed"
+            />
+        <EditText
+            android:id="@+id/heconsumed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="he consumed"
+
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:onClick="save"/>
+
+
+</LinearLayout>

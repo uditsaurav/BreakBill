@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.dude.projectworkz1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bb"
+        android:label="Break Bill"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:appComponentFactory"
+        android:appComponentFactory="androidx">
+        <activity
+            android:name=".MainActivity"
+            android:label="Break Bill"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".loginscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Group_info" />
+        <activity android:name=".feedbak" />
+        <activity android:name=".FAQs" />
+        <activity android:name=".friends_info" />
+        <activity android:name=".inside_group" />
+        <activity
+            android:name=".addAbill"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".FriendsHome" />
+        <activity android:name=".PaymentGate" />
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".SlideScreen" />
+        <activity android:name=".FaqAnswers" />
+        <activity android:name=".GroupHome" />
+        <activity android:name=".InsideGroups" />
+        <activity android:name=".Activity_feed" />
+    </application>
+
+</manifest>
